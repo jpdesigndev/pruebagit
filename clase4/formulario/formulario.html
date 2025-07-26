@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>datos personales</legend>
+            <label for="name">Nombre</label>
+            <input id="name" type="text" placeholder="Ingrese su nombre Real">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" type="text">
+            <br>
+            <label for="fechaNacimiento">Fecha de Nacimiento</label>
+            <input id="fechaNacimiento" type="date" required>
+            <br>
+            <label for="fotoPerfil">Foto tuya</label>
+            <input id="fotoPerfil" type="file">
+            <br>
+        </fieldset>
+        <fieldset>
+            <label for="nombreUsuario">Nombre de Usuario</label>
+            <input type="text" id="nombreUsuario">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@example.com">
+            <br>
+            <label for="pasword">Contraseña</label>
+            <input type="password" id="pasword">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos Extraa</legend>
+            <label for="pais">País</label>
+            <select name="pais" id="">
+                <option value="argentina">Argentina</option>
+                <option value="peru">Perú</option>
+                <option value="venezuela">Venezuela</option>
+
+            </select>
+        </fieldset>
+        <textarea name="comentarios" id="" cols="40" rows="15"></textarea>
+        <br>
+        <input type="checkbox" name="pregunta1" id="opci1">
+        <label for="opci1">Opcion 1</label>
+        <input type="checkbox" name="pregunta1" id="opci2">
+        <label for="opci2">Opcion 3</label>
+        <input type="checkbox" name="pregunta1" id="opci3">
+        <label for="opci3">Opcion 3</label>
+        <input type="checkbox" name="pregunta1" id="opci4">
+        <label for="opci4">Opcion 4</label>
+        <br>
+        <input type="submit">
+    </form>
+    <details open>
+        <summary>Mas detalles</summary>
+        <p>Texto desplegable de informacion</p>
+    </details>
+</body>
+</html>
